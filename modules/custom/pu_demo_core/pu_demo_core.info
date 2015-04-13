@@ -10,6 +10,8 @@ project = pu_demo_core
 ; Dependencies
 
 dependencies[] = color
+dependencies[] = ctools
+dependencies[] = devel_generate
 dependencies[] = features
 dependencies[] = image
 dependencies[] = strongarm
@@ -48,9 +50,3 @@ features[variable][] = node_options_page
 features[variable][] = node_submitted_page
 
 features[views_view][] = demo
-
-
-
-; Features exclude
-
-features_exclude[dependencies][ctools] = ctools
