@@ -1,0 +1,36 @@
+name = Persistent Update API demo core
+description = Core feature for Persistent Update API demo.
+core = 7.x
+package = " Persistent Update API demo"
+version = 7.x-1.0
+project = pu_demo_core
+
+
+
+; Dependencies
+
+dependencies[] = features
+dependencies[] = persistent_update
+dependencies[] = strongarm
+dependencies[] = toolbar
+dependencies[] = views
+dependencies[] = views_ui
+
+
+
+; Features
+
+features[ctools][] = strongarm:strongarm:1
+features[ctools][] = views:views_default:3.0
+
+features[features_api][] = api:2
+
+features[variable][] = maintenance_mode
+
+features[views_view][] = demo
+
+
+
+; Features exclude
+
+features_exclude[dependencies][ctools] = ctools

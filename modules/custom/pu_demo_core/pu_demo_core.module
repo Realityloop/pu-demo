@@ -1,0 +1,8 @@
+<?php
+
+/**
+ * @file
+ * Code for the Persistent Update API demo core feature.
+ */
+
+include_once 'pu_demo_core.features.inc';

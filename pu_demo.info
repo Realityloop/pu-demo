@@ -1,0 +1,9 @@
+name = Persistent Update API demo
+description = Persistent Update API demo
+core = 7.x
+
+
+
+; Dependencies
+
+dependencies[] = pu_demo_core
