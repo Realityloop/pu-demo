@@ -10,7 +10,6 @@ project = pu_demo_core
 ; Dependencies
 
 dependencies[] = features
-dependencies[] = persistent_update
 dependencies[] = strongarm
 dependencies[] = toolbar
 dependencies[] = views
